@@ -1,0 +1,112 @@
+{
+  "logistic_regression": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "roc_auc": 1.0,
+    "confusion_matrix": {
+      "tn": 970,
+      "fp": 0,
+      "fn": 0,
+      "tp": 30
+    }
+  },
+  "random_forest": {
+    "precision": 0.967741935483871,
+    "recall": 1.0,
+    "f1": 0.9836065573770492,
+    "roc_auc": 1.0,
+    "confusion_matrix": {
+      "tn": 969,
+      "fp": 1,
+      "fn": 0,
+      "tp": 30
+    },
+    "feature_importances": [
+      {
+        "feature": "distance_from_home",
+        "importance": 0.3307035394270178
+      },
+      {
+        "feature": "location_risk_score",
+        "importance": 0.2542049077038796
+      },
+      {
+        "feature": "amount",
+        "importance": 0.1863405314224077
+      },
+      {
+        "feature": "transaction_velocity",
+        "importance": 0.1486223255420663
+      },
+      {
+        "feature": "is_weekend",
+        "importance": 0.03694946376031477
+      },
+      {
+        "feature": "hour_of_day",
+        "importance": 0.012298467259187313
+      },
+      {
+        "feature": "device_type_unknown",
+        "importance": 0.012131557062519322
+      },
+      {
+        "feature": "device_type_mobile",
+        "importance": 0.008406093468603777
+      },
+      {
+        "feature": "merchant_category_restaurant",
+        "importance": 0.0028460591839061145
+      },
+      {
+        "feature": "merchant_category_gas_station",
+        "importance": 0.0017024826915750556
+      },
+      {
+        "feature": "device_type_desktop",
+        "importance": 0.0013808954360037661
+      },
+      {
+        "feature": "merchant_category_electronics",
+        "importance": 0.0012549609323006326
+      },
+      {
+        "feature": "merchant_category_travel",
+        "importance": 0.0011570837925008045
+      },
+      {
+        "feature": "merchant_category_grocery",
+        "importance": 0.0007306658076684415
+      },
+      {
+        "feature": "device_type_tablet",
+        "importance": 0.0004532094800129511
+      },
+      {
+        "feature": "merchant_category_digital_goods",
+        "importance": 0.0003424227748113028
+      },
+      {
+        "feature": "merchant_category_fashion",
+        "importance": 0.00027310117165025465
+      },
+      {
+        "feature": "merchant_category_jewelry",
+        "importance": 0.00020223308357411867
+      }
+    ]
+  },
+  "isolation_forest": {
+    "precision": 0.4915254237288136,
+    "recall": 0.9666666666666667,
+    "f1": 0.651685393258427,
+    "roc_auc": 0.9987972508591065,
+    "confusion_matrix": {
+      "tn": 940,
+      "fp": 30,
+      "fn": 1,
+      "tp": 29
+    }
+  }
+}
